@@ -12,14 +12,16 @@ body{
     background-color: black;
 }
 main img{
-    width: 5rem;
+    padding: 0.5rem;
+    width: 30%;
+    border: none;
 }
 h1{
     color: #FFFFFF;
      padding: 0 1.5rem;
      font-size: 1.6rem;
 }
-.input-em{
+.email, senha{
     display:flex ;
     flex-direction: column;
 }
@@ -58,6 +60,8 @@ div.d-flex label{
  align-items: center;
  gap: 0.5rem;
  font-size: 0.5rem;
+ color: #FFFFFF;
+ cursor: pointer;
 }
 
 
@@ -85,6 +89,7 @@ div.d-flex label::before{
    }
    
    span{
+    margin: 0 auto;
     text-align: center;
     margin-left: 3rem;
    }
@@ -98,12 +103,17 @@ div.d-flex label::before{
    #sign-it{
     display:flex ;
     font-size: 0.8rem;
-    margin-top: 1rem;
+
+    margin: 1rem 0.5rem;
    }
   #protected{
     font-size: 0.5rem;
+    margin-left: 0.7rem;
   }
-
+   
+  #saiba{
+    color: blue;
+  }
   footer{
     border: 1px solid #333;
     height: 0;
@@ -125,7 +135,7 @@ div.d-flex label::before{
   }
   ul li {
     font-size: 0.5rem;
-    margin-left: 0.5rem;
+    margin-left: 1rem;
      list-style: none;
   }
 
@@ -147,3 +157,85 @@ div.d-flex label::before{
     height: 0;
     border-bottom: 2px solid rgb(95, 92, 92);
   }
+@media (min-width: 40em){
+   body{
+    background-image: url(./imagens/BR-pt-20220815-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+   }
+  
+   form{
+    width: 50%;
+    height: 30rem;
+    background-color: black;
+    margin: 0 auto;
+    opacity: 0.8;
+   }
+   
+   h1{
+    padding-top: 2rem;
+    margin: 0 1rem;
+
+   }
+   h3{
+    margin-left: 6.5rem;
+   }
+   input, button{
+    width: 70%;
+   }
+   #centro{
+    padding-bottom: 3rem;
+   }
+   .email{
+    margin-bottom: 1rem;
+   }
+   
+   .d-flex{
+    margin-left: 2rem;
+   }
+
+   #sing-it, p{
+    margin-left: 2rem;
+   }
+   #protected{
+    margin-left: 2.5rem;
+   }
+   main img{
+    padding: 1rem;
+    width: 250px;
+   }
+
+   footer{
+    border: none;
+    height: 10rem;
+    background-color: black;
+    color: rgb(106, 103, 103);
+    opacity: 0.9;
+    padding: 0.5rem;
+   }
+
+    
+}
+
+@media (min-width: 60em){
+    form{
+        width: 450px;
+        height: 30rem;
+        background-color: black;
+        margin: 0 auto;
+        opacity: 0.8;
+       }
+    .d-flex{
+        margin-left: 50px;
+        color:#FFFFFF;
+       }
+    
+       #sing-it, p{
+        margin-left: 2rem;
+       }
+       #protected{
+        margin-left: 2.5rem;
+       }
+       main img{
+        padding: 1rem;
+        width: 250px;
+       } 
+}
