@@ -167,7 +167,7 @@ div.d-flex label::before{
     height: 30rem;
     background-color: black;
     margin: 0 auto;
-    opacity: 0.8;
+   background: rgba(0, 0, 0, 0.8);
    }
    
    h1{
@@ -208,7 +208,7 @@ div.d-flex label::before{
     height: 10rem;
     background-color: black;
     color: rgb(106, 103, 103);
-    opacity: 0.9;
+    background: rgba(0, 0, 0, 0.9);
     padding: 0.5rem;
    }
 
@@ -221,7 +221,7 @@ div.d-flex label::before{
         height: 30rem;
         background-color: black;
         margin: 0 auto;
-        opacity: 0.8;
+        background: rgba(0, 0, 0, 0.8);
        }
     .d-flex{
         margin-left: 50px;
